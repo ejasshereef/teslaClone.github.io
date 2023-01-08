@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: RGB(57, 60, 65);
+    font-weight: 500;
+}
+.container{
+    scroll-snap-type: y proximity;
+    overflow-y:scroll;
+    height: 100vh;
+
+}
+
+.model{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    scroll-snap-align: start;
+
+}
+.y-photo{
+    height: 969px;
+    width: 1903px;
+    background-image: url(image/Desktop-ModelY.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.nav-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.logo {
+    margin-left: 40px;
+    cursor: pointer;
+}
+.nav-top ul{
+    flex: 1;
+    text-align: center;
+}
+.nav-top ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.nav-top a{
+    text-decoration: none;
+    color: black;
+    margin: 10px 20px;
+}
+
+.nav-mid{
+    position: static;
+    margin-left: 45%;
+    margin-top: 7%;
+    
+   
+}
+.nav-mid h1{
+    font-size: 50px;
+}
+.nav-mid p{
+    cursor: pointer;
+}
+
+.nav-bottom{
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 36%;
+}
+
+.button1{
+    padding: 10px 80px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border-radius: 7px;
+    margin: 10px 20px;
+   
+}
+.button2{
+    padding: 10px 80px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+    margin: 10px 20px;
+}
+
+.three-photo{
+    height: 969px;
+    width: 1903px;
+    background-image: url(image/M3-Homepage-Desktop-LHD.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.s-photo{
+    height: 969px;
+    width: 1903px;
+    background-image: url(image/Homepage-Model-S-Desktop-LHD.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.x-photo{
+    height: 969px;
+    width: 1903px;
+    background-image: url(image/Homepage-Model-X-Desktop-LHD.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.panal-photo{
+    height: 969px;
+    width: 1903px;
+    background-image: url(image/SolarPanels-D.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.roof-photo{
+    height: 969px;
+    width: 1903px;
+    background-image: url(image/Homepage-SolarRoof-Desktop-Global.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.accessory-photo{
+    height: 969px;
+    width: 1903px;
+    background-image: url(image/dd739764-bcaa-4263-9488-8c73bc9fb046.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    margin-top: 38%;
+    display: flex;
+    justify-content: center;
+}
+footer div{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+ 
